@@ -1,0 +1,134 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+
+/*AQUI EMPIEZA LA CABECERA DE LA PAGINA*/
+
+header {
+    background-color: #2196f3;
+    width: auto;
+    height: 200px;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+header .imagenes {
+    display: flex;
+}
+
+header .imagenes article {
+    background-color: #2196f3;
+    width: auto;
+    margin: auto;
+}
+
+header input {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    border-color: #fff;
+}
+
+
+/*AQUI TERMINA LA CABECERA DE LA PAGINA*/
+
+
+/*AQUI EMPIEZA LA SECCION DE CATEGORIAS DE LA PAGINA*/
+
+section {
+    margin-top: 50px;
+}
+
+section .sectitulo {
+    text-align: center;
+}
+
+section .logeo {
+    text-align: right;
+    cursor: pointer;
+}
+
+section .categorias {
+    display: flex;
+}
+
+section .categorias article {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    width: 200px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+section .categorias h1 {
+    text-align: center;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+
+/*AQUI TERMINA LA SECCION DE CATEGORIAS DE LA PAGINA*/
+
+
+/*AQUI EMPIEZA LA SECCION DE FAVORITOS DE LA PAGINA*/
+
+section .Favoritos {
+    display: flex;
+}
+
+section .Favoritos article {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    cursor: pointer;
+}
+
+section .Favoritos img {
+    padding-top: 5px;
+    display: block;
+    margin: auto;
+}
+
+section .Favoritos h1,
+p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+section .Favoritos .prismatext {
+    padding: 3px;
+}
+
+section .Favoritos .carrito {
+    text-align: center;
+}
+
+
+/*AQUI TERMINA LA SECCION DE FAVORITOS DE LA PAGINA*/
